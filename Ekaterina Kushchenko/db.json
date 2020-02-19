@@ -2,38 +2,26 @@
   "pokemons": [
     {
       "name": "bulbazaur",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T06:49:27.388Z",
       "id": 1
     },
     {
       "name": "ivysaur",
-      "id": 2,
-      "isCaught": "true",
-      "catchDate": "2020-02-18T14:44:40.534Z"
+      "id": 2
     },
     {
       "name": "venusaur",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T06:45:45.328Z",
       "id": 3
     },
     {
       "name": "charmander",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:05:15.946Z",
       "id": 4
     },
     {
       "name": "charmeleon",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:04:58.350Z",
       "id": 5
     },
     {
       "name": "charizard",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:01:38.096Z",
       "id": 6
     },
     {
@@ -42,10 +30,14 @@
     },
     {
       "name": "wartortle",
+      "isCaught": "true",
+      "catchDate": "2020-02-19T20:11:23.644Z",
       "id": 8
     },
     {
       "name": "blastoise",
+      "isCaught": "true",
+      "catchDate": "2020-02-19T20:13:24.407Z",
       "id": 9
     },
     {
@@ -3811,40 +3803,16 @@
   ],
   "caughtPokemons": [
     {
-      "name": "ivysaur",
-      "id": 2,
+      "id": 8,
+      "name": "wartortle",
       "isCaught": "true",
-      "catchDate": "2020-02-18T14:44:40.534Z"
+      "catchDate": "2020-02-19T20:11:23.685Z"
     },
     {
-      "id": 3,
-      "name": "venusaur",
+      "id": 9,
+      "name": "blastoise",
       "isCaught": "true",
-      "catchDate": "2020-02-19T06:45:45.472Z"
-    },
-    {
-      "id": 1,
-      "name": "bulbazaur",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T06:49:27.769Z"
-    },
-    {
-      "id": 6,
-      "name": "charizard",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:01:38.166Z"
-    },
-    {
-      "id": 5,
-      "name": "charmeleon",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:04:58.735Z"
-    },
-    {
-      "id": 4,
-      "name": "charmander",
-      "isCaught": "true",
-      "catchDate": "2020-02-19T07:05:16.021Z"
+      "catchDate": "2020-02-19T20:13:24.495Z"
     }
   ]
 }

@@ -9,6 +9,8 @@ import {
   LOAD_MORE
 } from "../actions/actions";
 
+const POKEMONS_TO_LOAD = 10;
+
 const initialState = {
   pokemons: [],
   caughtPokemons: [],
@@ -17,7 +19,7 @@ const initialState = {
   current: null,
   loading: false,
   error: null,
-  visible: 10
+  visible: POKEMONS_TO_LOAD
 };
 
 const pokemonReducer = (state = initialState, action) => {
@@ -37,7 +39,7 @@ const pokemonReducer = (state = initialState, action) => {
     case LOAD_MORE:
       return {
         ...state,
-        visible: state.visible + 10
+        visible: state.visible + POKEMONS_TO_LOAD
       };
     case SEARCH_BY_NAME:
       return {

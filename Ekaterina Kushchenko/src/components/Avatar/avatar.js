@@ -7,9 +7,7 @@ function Avatar(props) {
       {props.id && (
         <img
           className='card-img'
-          src={require(`../../pokemons/${
-            props.id <= 720 ? props.id : (props.id % 100) + 1
-          }.png`)}
+          src={`${process.env.PUBLIC_URL}/pokemons/${props.id}.png`}
           alt={props.name}
         />
       )}
