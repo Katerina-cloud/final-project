@@ -1,0 +1,13 @@
+.pokemon-card {
+  max-width: 300px;
+  border: 1px solid $color-primary;
+  background: rgba($color-primary, 0.7);
+}
+
+.pokemon-card__title {
+  color: $color-tertiary;
+}
+
+.pokemon-card__button {
+  max-width: 100%;
+}

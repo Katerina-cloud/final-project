@@ -1,0 +1,133 @@
+nav {
+  background: #009688;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: rgba(255, 255, 255, 0.5) 1.5px solid;
+  border-top: rgba(255, 255, 255, 0.5) 1.5px solid;
+}
+
+a.navbar-brand {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 33px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+li.nav-item:hover {
+  background-color: #07776d;
+}
+
+.catch-button {
+  height: 38px;
+  padding: 6px;
+  background: #F85959;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.catch-button:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 150, 136, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 150, 136, 0.2);
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.catch-button:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 150, 136, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 150, 136, 0.2);
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (min-width: 768px) {
+  .catch-button {
+    max-width: 100%;
+  }
+}
+
+.catch-button:disabled {
+  background: rgba(248, 89, 89, 0.5);
+}
+
+.catch-button:disabled:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.catch-button:disabled:active {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.pokemon-card {
+  max-width: 300px;
+  border: 1px solid #009688;
+  background: rgba(0, 150, 136, 0.7);
+}
+
+.pokemon-card__title {
+  color: rgba(47, 51, 51, 0.75);
+}
+
+.pokemon-card__button {
+  max-width: 100%;
+}
+
+.pokemon-page__card {
+  border: none;
+  color: rgba(47, 51, 51, 0.75);
+  background: rgba(0, 150, 136, 0.55);
+}
+
+.pokemon-page__card .pokemon-page__info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.list-group-item {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(0, 150, 136, 0.55);
+}
+
+.list-group-flush .list-group-item {
+  border-right-width: 0;
+  border-left-width: 0;
+  border-radius: 0;
+}
+
+.list-group-flush .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.btn-red {
+  background-color: #F85959;
+  border: none;
+}
+
+.btn-red-light {
+  background-color: rgba(248, 89, 89, 0.2);
+  border: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=index.css.map */

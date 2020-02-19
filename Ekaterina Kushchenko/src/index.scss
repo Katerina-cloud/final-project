@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./components/Layout/Navbar";
+@import "./components/CatchButton/CatchButton";
+@import "./components/Pokemons/PokemonCard/PokemonCard";
+@import "./components/Pokemons//PokemonProfile/PokemonProfile";
+@import "./components/Pokemons/Search/Search";
+@import "./components/LoadMoreButton/LoadMoreButton";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hidden {
+  display: none;
+}
